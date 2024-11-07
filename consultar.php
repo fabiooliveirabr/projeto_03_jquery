@@ -2,7 +2,7 @@
 include "conexao.php";
 $cod = $_POST['cod'];
 $sql = "SELECT * FROM tb_movimentacoes
-        WHERE cod_rastreio LIKE '%$cod%'";
+        WHERE cod_rastreio LIKE '$cod'";
 $consultar = $pdo->prepare($sql);
 try{
     $consultar->execute();
