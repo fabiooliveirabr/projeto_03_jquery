@@ -38,3 +38,35 @@ h1 {
     font-size: 30px;
     margin-top: 40px;
 }
+.atualizacao{
+    width: 600px;
+    height: 140px;
+    background-color: lightgray;
+    border-left: 5px solid #FFA07A;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 20px;
+}
+
+.tipo{
+    font-size: 40px;
+    font-weight: 900;
+}
+.data_hora{
+    font-style: italic;
+    font-size: 20px;
+}
+.locais{
+    font-size: 30px;
+}
+
+input, select{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+}
+label{
+    width: 400px;
+    font-size: 18px;
+}
