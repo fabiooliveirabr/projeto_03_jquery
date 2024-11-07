@@ -2,7 +2,7 @@
 $maquina = "localhost";
 $usuario = "root";
 $senha = "root";
-$nome_do_banco = "bd_sistema_senai2";
+$nome_do_banco = "base_transportadora";
 $porta = 3306;
 
 try {
